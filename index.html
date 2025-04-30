@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="pattern-container"></div>
+    <div id="welcome">
+        <h1>Dive into the world of exciting and immersive wallpapers</h1>
+        <button id="next-btn">Next</button>
+    </div>
+
+    <div id="dialog">
+        <p>Welcome to the next stage! Enter your custom resolution:</p>
+        <div id="custom-input">
+            <input type="text" placeholder="e.g., 1920x1080" required>
+        </div>
+        <button id="final-next">Next</button>
+    </div>
+
+    <div id="color-dialog">
+        <p>Please enter a color value (hex, rgb, etc.):</p>
+        <div id="color-input">
+            <input type="text" placeholder="#ffffff or rgb(255,255,255)" required>
+        </div>
+        <button id="submit-color">Submit</button>
+    </div>
+
+    <div id="pattern-dialog">
+        <p>Select a pattern style to proceed:</p>
+        <div id="pattern-options">
+            <div class="pattern-btn">Lines</div>
+            <div class="pattern-btn">Shapes</div>
+            <div class="pattern-btn">Circles</div>
+            <div class="pattern-btn">Triangles</div>
+            <div class="pattern-btn">Emojis</div>
+        </div>
+        <button id="submit-pattern">Finish</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
